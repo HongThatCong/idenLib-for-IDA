@@ -21,12 +21,16 @@ Vd máy tôi là IDAUSR=Z:\IDA\usrdir.
 Cái gì không phải từ bộ cài gốc của IDA, tôi tống vào đây hết. Sau này cần chép đi đâu, chép thư mục này thôi là đủ.
 3. Chép file zstd.pyd vào thư mục PythonPath của bạn, vd: Python\Lib hoặc Python\Lib\site-packages hay IDA\Python... Chép vào đâu cũng được, miễn import, load lên là được.
 4. Install Capstone của anh Quỳnh: pip install capstone. 
+
 Xong
-4. Sau khi mở, IDA, load file xong, vào Edit, sẽ có menu idenLib, trong đó có 3 menu item con.... 
-Cái đầu là scan và apply sigs đã cache. Chưa cache thì chọn mới.
-Cái kế là chọn sig mới để tạo cache
-Cái 3 là about của tác giả.
+
+5. Sau khi mở, IDA, load file xong, vào Edit, sẽ có menu idenLib, trong đó có 3 menu item con.... 
+- Cái đầu là scan và apply sigs đã cache. Chưa cache thì chọn mới.
+- Cái kế là chọn sig mới để tạo cache
+- Cái 3 là about của tác giả.
+
 Hết. 
+
 Các bạn cứ thử mò, vọc đi sẽ biết cách dùng ngay, viết dài mệt quá :D
 
 idenLib do thuật toán quét theo opcodes nên tỷ lệ nhận diện các hàm không cao, nó cũng từa tựa như FLIRT của IDA. Các bạn có thể xem nó như 1 bổ sung cho .sig của IDA.
@@ -37,4 +41,5 @@ Vd nhiều mèo trước giờ dùng CryptoPP (Crypto++), Miracl... Cobalt Strik
 Không hiểu gì thì chịu khó xem code trong file .py. Bug thì quăng lên đây chửi xối xả cho tui fix :D (code như con két...)
 
 Chân chọng, bét xì ga :D
+
 HTC
