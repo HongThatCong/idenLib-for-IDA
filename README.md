@@ -16,8 +16,12 @@ File này tôi đã mod lại nhiều, cách sử dụng bên ngoài thì giốn
 
 # HD cài đặt:
 1. Chép idenLib.py vào thư mục IDA\plugins của bạn
-2. Chép hết thư mục SymEx vào IDA user dir, trên Windows thì ở %AppData%\HexRays\IDA...
+2. Chép hết thư mục SymEx vào IDA user dir, trên Windows thì ở %AppData%\HexRays\IDA... hay trong biến môi trường IDAUSR mà các bạn đã set.
+Vd máy tôi là IDAUSR=Z:\IDA\usrdir.
+Cái gì không phải từ bộ cài gốc của IDA, tôi tống vào đây hết. Sau này cần chép đi đâu, chép thư mục này thôi là đủ.
 3. Chép file zstd.pyd vào thư mục PythonPath của bạn, vd: Python\Lib hoặc Python\Lib\site-packages hay IDA\Python... Chép vào đâu cũng được, miễn import, load lên là được.
+4. Install Capstone của anh Quỳnh: pip install capstone. 
+Xong
 4. Sau khi mở, IDA, load file xong, vào Edit, sẽ có menu idenLib, trong đó có 3 menu item con.... 
 Cái đầu là scan và apply sigs đã cache. Chưa cache thì chọn mới.
 Cái kế là chọn sig mới để tạo cache
