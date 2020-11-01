@@ -144,7 +144,8 @@ def idenLibProcessSignatures():
             else:
                 g_func_sigs[sig_opcodes.strip()] = (name.strip(), 0)
 
-        count += 1
+            count += 1
+
         total += count
         print("[idenLib] file %s processed, %d signatures" % (f, count))
 
