@@ -19,7 +19,7 @@ File này tôi đã mod lại nhiều, cách sử dụng bên ngoài thì giốn
 2. Chép hết thư mục SymEx vào IDA user dir, trên Windows thì ở %AppData%\HexRays\IDA... hay trong biến môi trường IDAUSR mà các bạn đã set.
 Vd máy tôi là IDAUSR=Z:\IDA\usrdir.
 Cái gì không phải từ bộ cài gốc của IDA, tôi tống vào đây hết. Sau này cần chép đi đâu, chép thư mục này thôi là đủ.
-3. Chép file zstd.pyd vào thư mục PythonPath của bạn, vd: Python\Lib hoặc Python\Lib\site-packages hay IDA\Python... Chép vào đâu cũng được, miễn import, load lên là được.
+3. Install zstd: pip install zstd
 4. Install Capstone của anh Quỳnh: pip install capstone. 
 
 Xong
