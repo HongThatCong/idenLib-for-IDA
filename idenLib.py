@@ -252,8 +252,6 @@ def idenLib():
                         set_func_library(call_target)
                         current_name = idc.get_func_name(call_target)
                         func_name = g_main_sigs[sig_opcodes][0]
-                        print(func_name)
-                        print(type(func_name))
                         if not isinstance(func_name, str):
                             func_name = func_name.decode()
                         if current_name != func_name:
